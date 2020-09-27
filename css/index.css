@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+
+html body {
+  margin: 0;
+  min-height: 100%;
+  font-family: 'Josefin Sans', sans-serif !important;
+  width: 100%;
+  padding: 0;
+  
+     
+}
+
+.container-fluid{
+  margin: 0 auto;
+  padding: 0;
+  margin-top: 1rem;
+  font-family: 'Josefin Sans', sans-serif !important;
+}
+
+#navbarSupportedContent{
+  font-family: 'Josefin Sans', sans-serif !important;
+
+}
+
+#compra {
+  font-size: larger;
+  background-color: #613DC1 ;
+  color: white;
+  font-family: 'Permanent Marker', cursive;
+  text-shadow: #20063B 1px 0 10px;
+}
+
+
+#compra:hover {
+ 
+  background-color: #20063B;  
+}
+
+#aprendimas {
+  font-size: larger;
+  background-color: #613DC1 ;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif !important;
+  text-shadow: #20063B 1px 0 10px;
+}
+
+
+#aprendimas:hover {
+ 
+  background-color: #20063B;  
+}
+
+
+
+/*Aquí dispuse nuestros mismos css que tenidamos en nuestra clase 3, lo realice sólo para que vean que podemos sin ningún problema, combinar como deseemos nuestros conocimientos de maquetación ahora con Bootstrap*/
+article img{
+    width: 100%;
+    opacity: 1;
+}
+
+article img:hover{
+    opacity: 0.8;
+}
+p{
+    text-align: justify;
+}
+
+
+/*Jumbotron*/
+
+.jumbotron {
+    padding: 1rem;
+    border-radius: 0;
+  }
+  
+  /* Welcome Section */
+  
+  .lead.origen {
+    text-align: justify;
+    padding-top: 2rem;
+    margin-left: 200px;  
+    font-size: 26px;
+   }
+  
+  .lead {
+    text-align: center;
+    font-size: 32px !important;
+  }
+  
+  .welcome {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+     }
+  
+  .welcome hr {
+    border-top: 2px solid #b4b4b4;
+    width: 95%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+    
+  }
+  
+  /*3 Column Section */
+  
+   #headingthree {
+     font-size: 36px !important;
+     font-weight: bold;
+     padding-bottom: 10px;
+   }
+  
+   #comment {
+     font-size: 28px !important;
+   }
+  
+  #leaficon {
+    height: 2rem;  
+  }
+  
+.descripcion{
+    min-height: 10vh;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -moz-box;
+    -moz-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    line-clamp: 3;
+    box-orient: vertical;
+
+}
+
+/* Fixed background --Tiene que estar aca, al final de todo lo demas; no estoy segura porque...pero no muevas mas arriba por ahora  :-D*/
+
+
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0!important;
+  opacity: .8;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#fixed {
+  background-image: url('../img/figure.png');
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}

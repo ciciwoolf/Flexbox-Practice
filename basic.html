@@ -1,0 +1,118 @@
+<style>
+
+   
+    @media(min-width:468px) {  
+      .container-1{
+        display:flex; /*puts the boxes side be side in a row */
+        align-items: flex-end;
+        /*align-items: stretch; this is default */
+        padding: 2em;
+        background-image: url("img/trails1920x800.png");
+    }
+
+    .container-2{
+        display:flex; /*puts the boxes side be side in a row */
+        justify-content: space-evenly; /* puts items evenly spaced */
+        /*align-items: stretch; this is default */
+    }
+  }
+
+
+    .container-3{
+        display:flex; /*puts the boxes side be side in a row */
+        flex-wrap: wrap; 
+        justify-content: space-evenly;
+        
+        /*align-items: stretch; this is default */
+    }
+
+
+    .container-1 div, .container-2 div, .container-3 div{
+        border: 1px #ccc solid;
+        padding: 10px;
+        background: white;
+        
+    }
+
+
+
+    .box-1{
+        flex: 3;
+        order: 2;
+
+    }
+
+    .box-2 {
+        flex: 1;
+        order: 1;
+
+    }
+
+    .box-3 {
+        flex: 1;
+        order: 3;
+    }
+
+    .container-2-box {
+        flex-basis: 27%;
+
+    }
+
+    .container-3-box {
+        flex-basis: 15%;
+
+    }
+
+</style>
+
+<div class="container-1">
+    <div class="box-1">
+        <h3>Box One</h3>
+        <p> Lorem ipsum blalbalblablbalbab </p>
+    </div>
+
+    <div class="box-2">
+        <h3>Box Two</h3>
+        <p> Lorem ipsum blalbalblablbalbab </p>
+    </div>
+
+    <div class="box-3">
+        <h3>Box Three</h3>
+        <p> Lorem ipsum blalbalblablbalbab </p>
+    </div>
+</div>
+
+<div class="container-2">
+    <div class="container-2-box">
+        <h3>Box Six</h3>
+        <p> Lorem ipsum blalbalblablbalbab Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente accusantium mollitia rem quis omnis assumenda tempore totam aliquam nesciunt eveniet dolorem quia fugit nemo, quasi iure qui, nobis saepe magnam.</p>
+    </div>
+
+    <div class="container-2-box">
+        <h3>Box Five</h3>
+        <p> Lorem ipsum blalbalblablbalbab Sapiente accusantium mollitia rem quis omnis assumenda tempore totam aliquam nesciunt eveniet dolorem quia fugit nemo, quasi iure qui, nobis saepe magnam </p>
+    </div>
+
+    <div class="container-2-box">
+        <h3>Box Six</h3>
+        <p> Lorem ipsum blalbalblablbalbab Sapiente accusantium mollitia rem quis omnis assumenda tempore totam aliquam nesciunt eveniet dolorem quia fugit nemo, quasi iure qui, nobis saepe magnam </p>
+    </div>
+</div>
+
+
+<div class="container-3">
+    <div class="container-3-box">
+        <h3>Box Six</h3>
+        <p> Lorem ipsum blalbalblablbalbab Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente accusantium mollitia rem quis omnis assumenda tempore totam aliquam nesciunt eveniet dolorem quia fugit nemo, quasi iure qui, nobis saepe magnam.</p>
+    </div>
+
+    <div class="container-3-box">
+        <h3>Box Five</h3>
+        <p> Lorem ipsum blalbalblablbalbab Sapiente accusantium mollitia rem quis omnis assumenda tempore totam aliquam nesciunt eveniet dolorem quia fugit nemo, quasi iure qui, nobis saepe magnam </p>
+    </div>
+
+    <div class="container-3-box">
+        <h3>Box Six</h3>
+        <p> Lorem ipsum blalbalblablbalbab Sapiente accusantium mollitia rem quis omnis assumenda tempore totam aliquam nesciunt eveniet dolorem quia fugit nemo, quasi iure qui, nobis saepe magnam </p>
+    </div>
+</div>
